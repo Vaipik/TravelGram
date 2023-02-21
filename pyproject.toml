@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "travelgram"
+version = "0.1.0"
+description = "pet-project"
+authors = ["Vaipik <n.khylko@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1.7"
+django-autoslug = "^1.9.8"
+psycopg2 = "^2.9.5"
+pytils = "^0.4.1"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+factory-boy = "^3.2.1"
+python-dotenv = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
