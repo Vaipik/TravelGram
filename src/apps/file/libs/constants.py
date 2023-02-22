@@ -1,7 +1,4 @@
 # File
 
 DESCRIPTION_MAX_LENGTH = 255
-
-# Category
-
-
+FILES_PER_EVENT = 128
